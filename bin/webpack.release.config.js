@@ -43,13 +43,6 @@ var commonsChunkPlugin = new webpack.optimize.CommonsChunkPlugin({
 
 plugins.push(commonsChunkPlugin);
 
-
-
-function getFileName(name) {
-  var arr = name.split('\/');
-  return arr[arr.length - 1] + '.js';
-}
-
 /**
  * 配置webpack
  */
@@ -59,7 +52,7 @@ var config = {
     path: path.resolve(containerPath, './dist/'),
     filename: '[name].js'
   },
-  devtool: 'source-map',
+  devtool: false,
   module: {
     rules: [{
       test: /\.js$/,
