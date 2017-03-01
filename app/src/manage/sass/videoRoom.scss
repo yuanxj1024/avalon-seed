@@ -1,0 +1,22 @@
+@import "./base.scss";
+
+.top-video-wrap{
+  height: 212px;
+  overflow: hidden;
+  background-color: #000;
+}
+.content-wrap{
+  position: absolute;
+  top: 212px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+body{
+  background: #f7f7f7;
+}
+
+.bg-white{
+  background: #fff;
+}

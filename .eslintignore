@@ -1,0 +1,10 @@
+bin
+node_modules
+
+app/src/_
+app/src/plugins/**
+dist
+app/src/custom_plugins/**
+
+gulpfile.js
+plugin_alias.js
