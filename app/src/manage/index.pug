@@ -8,5 +8,13 @@ html(lang=en)
     meta(name="keywords" content="")
   body
     h1 Hello world
-    
+    div.container(ms-controller="root")
+      div.menu
+        ul
+          li 菜单1
+          li 菜单2
+          li 菜单3
+          li 菜单4
+      div.view
+        div(ms-html="@currentView")
     //- script(src="../commons.bundle.js")
