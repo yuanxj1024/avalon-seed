@@ -5,6 +5,7 @@
 项目资料
 
 * [oniui](http://ued.qunar.com/oniui/home.htm)
+* [路由按需加载](https://segmentfault.com/a/1190000004361876)
 
 
 
